@@ -15,7 +15,7 @@ namespace MeowWorld2.Controllers
         {
             _Cats[cat] = sound;
 
-            return String.Format("{0} added to the horde yeah!", cat);
+            return String.Format("{0} added to the horde yeaaaaaah!", cat);
         }
 
         [HttpGet("horde/{cat}")]
